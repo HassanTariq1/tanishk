@@ -7,4 +7,26 @@
     tools:context="com.itpvt.tanishk.MainActivity">
 
 
+    <include
+
+        android:id="@+id/include"
+        layout="@layout/toolbar" />
+
+
+    <include
+
+        layout="@layout/toolbarr" />
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+
+        android:layout_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+
+    </com.daimajia.slider.library.SliderLayout>
+
+
 </android.support.constraint.ConstraintLayout>

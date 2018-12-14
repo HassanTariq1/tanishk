@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:layout_gravity="bottom"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <View
+                android:id="@+id/toolbar_s"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/toolbar_drop" />
+
+        </FrameLayout>
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="30dp"
+                    android:src="@drawable/hom"
+                    />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="30dp"
+                    android:src="@drawable/lis"
+                    />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="30dp"
+                    android:src="@drawable/facebook"
+                    />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="20"
+                    android:layout_height="30dp"
+                    android:src="@drawable/whatsapp"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
